@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <script src="functions.js" charset="utf-8"></script>
+    <title>Lider du eller dit barn af ludomani</title>
+  </head>
+  <body>
+<div class="header">
+  <h1>Information om ludomani</h1>
+</div>
+    <div class="frontPage">
+    </div>
+
+    <div class="midtPage">
+      <p>Her kan der stå noget indledning</p>
+      <img src="boks.png">
+      <p>Her ville der være en forklarende tekts, som beskriver vad ludomani er</p>
+      <p>Her er der mulighed for tage en test</p>
+    </div>
+
+  <div id="navbar">
+
+    <div class="dropdown">
+      <a href="Ungludomani.html">home</a>
+
+      </div>
+            <div class="dropdown">
+      <a "SpillerDuEllerDitBarn">Spiller du eller dit barn</a>
+        <div class="droplink1">
+          <a href="10Til25.html">10-25</a>
+          <a href="forældre.html">forældre</a>
+          <a href="symptomer.html">symptomer</a>
+          <a href="pårørende.html">pårørende</a>
+      </div>
+  </div>
+  <div class="dropdown">
+  <a ="BrugForHjælp">Brug for hjælp</a>
+<div class="droplink2">
+<a href="kontakt.html">kontakt</a>
+<a href="tips.html">råd</a>
+<a href="solutions.html">løsninger</a>
+</div>
+  </div>
+      <div class="dropdown">
+      <a href="eksperter.html">Eksperter og forskning</a>
+</div>
+  </div>
+
+
+    <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-75px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+
+    </script>
+  </body>
+
+</html>

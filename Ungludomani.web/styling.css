@@ -1,0 +1,132 @@
+*{
+  margin:0;
+}
+
+.frontPage p{
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.midtPage img{
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+.midtPage p{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+
+.header{
+  text-align: center;
+  padding-top: 25px;
+}
+.header h1{
+    font-size: 50px;
+}
+
+#navbar{
+position: fixed;
+top: 0;
+width: 100%;
+transition:top 0.3s;
+background-color: #000 ;
+display: block;
+}
+
+#navbar a{
+  text-align: center;
+  float: left;
+  color: #fff;
+  padding: 16px 150px;
+  text-decoration: none;
+  font-size:20px;
+}
+
+#navbar a:hover{
+  background-color: #fff;
+  color:#000;
+}
+h1{
+padding: 15px 15px;
+font-size: 30px;
+margin-top: 40px;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.droplink1{
+
+  display: none;
+  position: absolute;
+  font-size: 16px;
+  margin-top: 55px;
+  margin-left: 0px;
+  background-color: grey ;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px white;
+  z-index: 1
+
+}
+
+.droplink1 a {
+  color: black;
+  padding: 0px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.droplink2{
+  display: none;
+  position: absolute;
+  font-size: 16px;
+  margin-top: 55px;
+  margin-left: 0px;
+  background-color: grey ;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px white;
+  z-index: 1
+
+}
+
+.droplink2 a {
+  color: black;
+  padding: 0px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.droplink3{
+  display: none;
+  position: absolute;
+  font-size: 16px;
+  margin-top: 55px;
+  margin-left: 0px;
+  background-color: grey ;
+  min-width: 16px;
+  box-shadow: 0px 8px 16px 0px white;
+  z-index: 1
+
+}
+
+.droplink3 a {
+  color: black;
+  padding: 0px 0px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .droplink1{display: block;}
+.dropdown:hover .droplink2{display: block;}
+.dropdown:hover .droplink3{display: block;}
